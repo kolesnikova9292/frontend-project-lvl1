@@ -30,7 +30,6 @@ rules:
     - 4
   no-duplicate-imports: error
   no-eq-null: error
-  no-eval: error
   no-implied-eval: error
   no-invalid-this: error
   no-shadow: error

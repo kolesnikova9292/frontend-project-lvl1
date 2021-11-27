@@ -8,8 +8,9 @@ export const calc = () => {
         const number2 = Math.floor(Math.random() * 100);
         const sign = chooseSign(['+', '-', '*']);
         const result = checking(number1 + sign + number2, name, eval(number1 + sign + number2).toString());
-        if(result === 'fail')
+        if(result === 'fail') {
             return;
+        }
     }
     console.log(`Congratulations, ${name}!`);
     return;

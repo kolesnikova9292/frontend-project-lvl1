@@ -12,7 +12,7 @@ const greeting = () => {
     console.log('Answer "yes" if the number is even, otherwise answer "no".');
 
     return name;
-}
+};
 
 const checking = (expression, name, realAnswer) => {
     //const number1 = Math.floor(Math.random() * 100);
@@ -36,6 +36,6 @@ const checking = (expression, name, realAnswer) => {
         console.log('Correct!');
     }
     return;
-}
+};
 
-export {chooseSign, greeting, checking, randomNumber}
+export {chooseSign, greeting, checking, randomNumber};

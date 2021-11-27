@@ -6,7 +6,7 @@ const play = () => {
     console.log(`Hello, ${name}!`);
 }*/
 
-import readlineSync from "readline-sync";
+
 import {checking, greeting, randomNumber} from "../src/steps.js";
 
 export const even = () => {
