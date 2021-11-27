@@ -2,6 +2,8 @@
 import { greeting } from '../src/cli.js';
 
 
-greeting();
+const play = () => greeting();
 
+
+export default play;
 //console.log('Welcome to the Brain Games!')

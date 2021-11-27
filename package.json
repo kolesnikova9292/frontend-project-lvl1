@@ -18,12 +18,15 @@
   },
   "homepage": "https://github.com/kolesnikova9292/frontend-project-lvl1#readme",
   "bin": {
-    "brain-games": "bin/brain-games.js"
+    "brain-games": "bin/brain-games.js",
+    "brain-even": "bin/brain-even.js"
   },
   "dependencies": {
+    "asciinema-player": "^2.6.1",
     "eslint": "^8.3.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-plugin-import": "^2.25.3",
+    "go": "^3.0.1",
     "make": "^0.8.1",
     "npx": "^10.2.2",
     "readline-sync": "^1.4.10"
