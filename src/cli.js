@@ -10,7 +10,7 @@ export const greeting = () => {
     const name = readlineSync.question('May I have your name? ');
     console.log(`Hello, ${name}!`);
     //return 0;
-}
+};
 
 //export { cube };
 
