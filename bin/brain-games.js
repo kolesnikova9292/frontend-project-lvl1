@@ -1,8 +1,10 @@
 #!/usr/bin/env node
-import { greeting } from '../src/cli.js';
+//import { greeting } from '../src/cli.js';
 
 
-const play = () => greeting();
+import {even} from "./brain-even";
+
+const play = () => even();
 
 
 export default play;
