@@ -9,14 +9,14 @@ export const greeting = () => {
 
     const munbers = [15, 6, 7];
 
-    for(let i = 0; i < munbers.length; i++) {
-        console.log(`Question: ${munbers[i]}`);
+    for(let step = 0; step < munbers.length; step++) {
+        console.log(`Question: ${munbers[step]}`);
         const answer = readlineSync.question('Your answer: ');
-        const realAnswer = munbers[i] % 2 === 1 ? 'no' : 'yes';
+        const realAnswer = munbers[step] % 2 === 1 ? 'no' : 'yes';
 
         if(answer !== realAnswer) {
             console.log(`${answer} is wrong answer ;(. Correct answer was ${realAnswer}.`);
-            console.log(`Let\'s try again, ${name}!`);
+            console.log(`Let's try again, ${name}!`);
             return;
         } else {
             console.log('Correct!');
