@@ -1,4 +1,4 @@
-import {checkingYourQuestion, chooseSign, greeting} from "../src/steps.js";
+import {checkingYourQuestion, greeting} from "../src/steps.js";
 import {greetingText, introQuestion, whatShouldYouDoGCDGame} from "../src/consts.js";
 
 export const calc = () => {
@@ -26,6 +26,6 @@ const findGCD = (number1, number2) => {
     }
 
     return findGCD(number2, number1 % number2);
-}
+};
 
 calc();
