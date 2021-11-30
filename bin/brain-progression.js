@@ -6,13 +6,13 @@ export const pregression = () => {
 
     for(let step = 0; step < 3; step++) {
         const zeroElement = randomNumber();
-        const step = randomNumber();
+        const stepProgression = randomNumber();
         const amount = randomNumber(5, 10);
 
         const progression = [];
 
-        for (let i = 0; i < amount; i++) {
-            progression.push(zeroElement + i * step);
+        for (let elementNumber = 0; elementNumber < amount; elementNumber++) {
+            progression.push(zeroElement + elementNumber * stepProgression);
         }
 
         const skippedNumber = randomNumber(0, amount - 1);
@@ -28,14 +28,6 @@ export const pregression = () => {
     }
     console.log(`Congratulations, ${name}!`);
     return;
-};
-
-const findGCD = (number1, number2) => {
-    if (!number2) {
-        return number1;
-    }
-
-    return findGCD(number2, number1 % number2);
 };
 
 pregression();
