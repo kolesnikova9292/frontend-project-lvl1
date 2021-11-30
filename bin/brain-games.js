@@ -2,7 +2,7 @@
 //import { greeting } from '../src/cli.js';
 
 
-import {even} from "./brain-even";
+import {even} from "./brain-even.js";
 
 const play = () => even();
 
