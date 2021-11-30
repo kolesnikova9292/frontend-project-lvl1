@@ -4,3 +4,4 @@ export const whatShouldYouDoEvenGame= 'Answer "yes" if the number is even, other
 export const whatShouldYouDoCalcGame= 'What is the result of the expression?';
 export const whatShouldYouDoGCDGame= 'Find the greatest common divisor of given numbers.';
 export const whatShouldYouDoProgressionGame= 'What number is missing in the progression?';
+export const whatShouldYouDoPrimeGame= 'Answer "yes" if given number is prime. Otherwise answer "no".';
