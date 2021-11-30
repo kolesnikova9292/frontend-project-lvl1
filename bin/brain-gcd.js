@@ -1,7 +1,7 @@
 import {checkingYourQuestion, greeting} from "../src/steps.js";
 import {greetingText, introQuestion, whatShouldYouDoGCDGame} from "../src/consts.js";
 
-export const calc = () => {
+export const gcd = () => {
     const name = greeting(greetingText, introQuestion, whatShouldYouDoGCDGame);
 
     for(let step = 0; step < 3; step++) {
@@ -28,4 +28,4 @@ const findGCD = (number1, number2) => {
     return findGCD(number2, number1 % number2);
 };
 
-calc();
+gcd();

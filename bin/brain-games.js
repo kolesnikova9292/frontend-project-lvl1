@@ -1,11 +1,12 @@
 #!/usr/bin/env node
-//import { greeting } from '../src/cli.js';
 
+import readlineSync from "readline-sync";
+import {greetingText, introQuestion} from "../src/consts.js";
 
-import {even} from "./brain-even.js";
-
-const play = () => even();
-
-
-export default play;
-//console.log('Welcome to the Brain Games!')
+const start = () => {
+    console.log(greetingText);
+    const name = readlineSync.question(introQuestion);
+    console.log(`Hello, ${name}!`);
+}
+//console.log(111);
+start();
