@@ -1,6 +1,7 @@
 import readlineSync from "readline-sync";
 
-const randomNumber = () => Math.floor(Math.random() * 100);
+//const randomNumber = (from, to) => Math.floor(Math.random() * 100);
+const randomNumber = (from = 1, to = 100) => Math.floor(Math.random() * to) + from;
 
 const chooseSign = (signs) => signs[Math.floor(Math.random() * signs.length)];
 
