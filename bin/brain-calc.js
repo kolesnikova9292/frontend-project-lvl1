@@ -4,12 +4,27 @@ import { greetingText, introQuestion, whatShouldYouDoCalcGame } from '../src/con
 
 export const calc = () => {
   const name = greeting(greetingText, introQuestion, whatShouldYouDoCalcGame);
-  for(let step = 0; step < 3; step++) {
+  for (let step = 0; step < 3; step = step + 1) {
     const number1 = Math.floor(Math.random() * 100);
     const number2 = Math.floor(Math.random() * 100);
     const sign = chooseSign(['+', '-', '*']);
-    const result = checkingYourQuestion(number1 + ' ' + sign + ' ' + number2, name, eval(number1 + sign + number2).toString());
-    if(result === 'fail') {
+    let value = 0;
+    switch (sign) {
+      case '+': {
+        value = number1 + number2;
+        break;
+      }
+      case '-': {
+        value = number1 - number2;
+        break;
+      }
+      case '*': {
+        value = number1 * number2;
+        break;
+      }
+    }
+    const result = checkingYourQuestion(`${number1} ${sign} ${number2}`, name, value.toString());
+    if (result === 'fail') {
       return;
     }
   }

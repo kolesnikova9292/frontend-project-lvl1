@@ -5,14 +5,14 @@ import { greetingText, introQuestion, whatShouldYouDoProgressionGame } from '../
 export const pregression = () => {
   const name = greeting(greetingText, introQuestion, whatShouldYouDoProgressionGame);
 
-  for(let step = 0; step < 3; step++) {
+  for (let step = 0; step < 3; step = step + 1) {
     const zeroElement = randomNumber();
     const stepProgression = randomNumber();
     const amount = randomNumber(5, 10);
 
     const progression = [];
 
-    for (let elementNumber = 0; elementNumber < amount; elementNumber++) {
+    for (let elementNumber = 0; elementNumber < amount; elementNumber = elementNumber + 1) {
       progression.push(zeroElement + elementNumber * stepProgression);
     }
 
@@ -23,7 +23,7 @@ export const pregression = () => {
     progression[skippedNumber] = '..';
 
     const result = checkingYourQuestion(progression.join(' '), name, rightAnswer.toString());
-    if(result === 'fail') {
+    if (result === 'fail') {
       return;
     }
   }

@@ -45,4 +45,8 @@ rules:
   object-curly-spacing: [2, "always"]
   quotes: [2, "single"]
   indent: [2, 2]
+  keyword-spacing: "error"
+  no-plusplus: "error"
+  prefer-template: "error"
+  no-eval: 2
   #import/prefer-default-export: "error"

@@ -4,12 +4,12 @@ import { greetingText, introQuestion, whatShouldYouDoGCDGame } from '../src/cons
 
 export const gcd = () => {
   const name = greeting(greetingText, introQuestion, whatShouldYouDoGCDGame);
-  for(let step = 0; step < 3; step++) {
+  for (let step = 0; step < 3; step = step + 1) {
     const number1 = Math.floor(Math.random() * 100);
     const number2 = Math.floor(Math.random() * 100);
     const gcn = findGCD(number1, number2);
-    const result = checkingYourQuestion(number1 + ' ' + number2, name, gcn.toString());
-    if(result === 'fail') {
+    const result = checkingYourQuestion(`${number1} ${number2}`, name, gcn.toString());
+    if (result === 'fail') {
       return;
     }
   }
