@@ -1,6 +1,5 @@
 import readlineSync from 'readline-sync';
 
-//const randomNumber = (from, to) => Math.floor(Math.random() * 100);
 const randomNumber = (from = 1, to = 100) => Math.floor(Math.random() * to) + from;
 
 const chooseSign = (signs) => signs[Math.floor(Math.random() * signs.length)];
@@ -22,9 +21,8 @@ const checkingYourQuestion = (expression, name, realAnswer) => {
     console.log(`${answer} is wrong answer ;(. Correct answer was ${realAnswer}.`);
     console.log(`Let's try again, ${name}!`);
     return 'fail';
-  } else {
-    console.log('Correct!');
   }
+  console.log('Correct!');
 };
 
 export { chooseSign, greeting, checkingYourQuestion, randomNumber };

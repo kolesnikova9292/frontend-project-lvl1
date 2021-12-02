@@ -54,4 +54,6 @@ rules:
   semi-spacing: [2, { "before": false, "after": true }]
   padded-blocks: ["error",  { "blocks": "never" }]
   no-useless-return: "error"
+  spaced-comment: ["error", "always"]
+  no-else-return: "error"
   #import/prefer-default-export: "error"
