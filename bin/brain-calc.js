@@ -9,7 +9,7 @@ export const calc = () => {
         const number1 = Math.floor(Math.random() * 100);
         const number2 = Math.floor(Math.random() * 100);
         const sign = chooseSign(['+', '-', '*']);
-        const result = checkingYourQuestion(number1 + sign + number2, name, eval(number1 + sign + number2).toString());
+        const result = checkingYourQuestion(number1 + ' ' + sign + ' ' + number2, name, eval(number1 + sign + number2).toString());
         if(result === 'fail') {
             return;
         }
