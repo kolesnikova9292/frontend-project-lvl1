@@ -1,6 +1,6 @@
+#!/usr/bin/env node
 import {checkingYourQuestion, greeting, randomNumber} from "../src/steps.js";
 import {greetingText, introQuestion, whatShouldYouDoEvenGame} from "../src/consts.js";
-import readlineSync from "readline-sync";
 
 export const even = () => {
 
