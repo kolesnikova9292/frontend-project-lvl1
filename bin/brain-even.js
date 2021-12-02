@@ -7,7 +7,7 @@ export const even = () => {
     //const name = greeting(greetingText, introQuestion, whatShouldYouDoEvenGame);
 
     console.log(greetingText);
-    //const name = readlineSync.question(introQuestion);
+    const name = readlineSync.question(introQuestion);
     //console.log(`Hello, ${name}!`);
     //console.log(whatShouldYouDoEvenGame);
 
