@@ -4,14 +4,14 @@ import readlineSync from "readline-sync";
 
 export const even = () => {
 
-    //const name = greeting(greetingText, introQuestion, whatShouldYouDoEvenGame);
+    const name = greeting(greetingText, introQuestion, whatShouldYouDoEvenGame);
 
-    console.log(greetingText);
-    const name = readlineSync.question(introQuestion);
+    //console.log(greetingText);
+    //const name = readlineSync.question(introQuestion);
     //console.log(`Hello, ${name}!`);
     //console.log(whatShouldYouDoEvenGame);
 
-    /*for(let step = 0; step < 3; step++) {
+    for(let step = 0; step < 3; step++) {
         const number = randomNumber();
         const realAnswer = number % 2 === 1 ? 'no' : 'yes';
         const result = checkingYourQuestion(number, name, realAnswer);
@@ -21,7 +21,7 @@ export const even = () => {
     }
 
     console.log(`Congratulations, ${name}!`);
-    return;*/
+    //return;
 };
 
 even();
