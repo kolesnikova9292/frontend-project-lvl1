@@ -22,7 +22,7 @@ export const pregression = () => {
 
         progression[skippedNumber] = '..';
 
-        const result = checkingYourQuestion(progression, name, rightAnswer.toString());
+        const result = checkingYourQuestion(progression.join(' '), name, rightAnswer.toString());
         if(result === 'fail') {
             return;
         }
