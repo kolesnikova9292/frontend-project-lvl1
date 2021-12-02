@@ -42,3 +42,7 @@ rules:
         - fixme
   prefer-promise-reject-errors: error
   semi: error
+  object-curly-spacing: [2, "always"]
+  quotes: [2, "single"]
+  indent: [2, 2]
+  #import/prefer-default-export: "error"
