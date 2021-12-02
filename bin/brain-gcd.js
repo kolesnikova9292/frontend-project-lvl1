@@ -2,6 +2,13 @@
 import { checkingYourQuestion, greeting } from '../src/steps.js';
 import { greetingText, introQuestion, whatShouldYouDoGCDGame } from '../src/consts.js';
 
+const findGCD = (number1, number2) => {
+  if (!number2) {
+    return number1;
+  }
+  return findGCD(number2, number1 % number2);
+};
+
 export const gcd = () => {
   const name = greeting(greetingText, introQuestion, whatShouldYouDoGCDGame);
   for (let step = 0; step < 3; step += 1) {
@@ -14,13 +21,6 @@ export const gcd = () => {
     }
   }
   console.log(`Congratulations, ${name}!`);
-};
-
-const findGCD = (number1, number2) => {
-  if (!number2) {
-    return number1;
-  }
-  return findGCD(number2, number1 % number2);
 };
 
 gcd();

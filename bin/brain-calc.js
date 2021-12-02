@@ -22,6 +22,8 @@ export const calc = () => {
         value = number1 * number2;
         break;
       }
+      default:
+        break;
     }
     const result = checkingYourQuestion(`${number1} ${sign} ${number2}`, name, value.toString());
     if (result === 'fail') {

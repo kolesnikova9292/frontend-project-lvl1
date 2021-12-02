@@ -25,4 +25,6 @@ const checkingYourQuestion = (expression, name, realAnswer) => {
   console.log('Correct!');
 };
 
-export { chooseSign, greeting, checkingYourQuestion, randomNumber };
+export {
+  chooseSign, greeting, checkingYourQuestion, randomNumber,
+};
