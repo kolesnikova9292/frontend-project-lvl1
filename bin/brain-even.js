@@ -7,8 +7,8 @@ export const even = () => {
     //const name = greeting(greetingText, introQuestion, whatShouldYouDoEvenGame);
 
     console.log(greetingText);
-    const name = readlineSync.question(introQuestion);
-    console.log(`Hello, ${name}!`);
+    //const name = readlineSync.question(introQuestion);
+    //console.log(`Hello, ${name}!`);
     //console.log(whatShouldYouDoEvenGame);
 
     /*for(let step = 0; step < 3; step++) {
