@@ -28,7 +28,6 @@ export const pregression = () => {
     }
   }
   console.log(`Congratulations, ${name}!`);
-  return;
 };
 
 pregression();

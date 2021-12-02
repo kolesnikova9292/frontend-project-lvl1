@@ -14,7 +14,6 @@ export const gcd = () => {
     }
   }
   console.log(`Congratulations, ${name}!`);
-  return;
 };
 
 const findGCD = (number1, number2) => {

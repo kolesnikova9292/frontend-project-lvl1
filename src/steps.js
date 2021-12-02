@@ -25,7 +25,6 @@ const checkingYourQuestion = (expression, name, realAnswer) => {
   } else {
     console.log('Correct!');
   }
-  return;
 };
 
 export { chooseSign, greeting, checkingYourQuestion, randomNumber };

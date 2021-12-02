@@ -10,18 +10,18 @@ export const calc = () => {
     const sign = chooseSign(['+', '-', '*']);
     let value = 0;
     switch (sign) {
-    case '+': {
-      value = number1 + number2;
-      break;
-    }
-    case '-': {
-      value = number1 - number2;
-      break;
-    }
-    case '*': {
-      value = number1 * number2;
-      break;
-    }
+      case '+': {
+        value = number1 + number2;
+        break;
+      }
+      case '-': {
+        value = number1 - number2;
+        break;
+      }
+      case '*': {
+        value = number1 * number2;
+        break;
+      }
     }
     const result = checkingYourQuestion(`${number1} ${sign} ${number2}`, name, value.toString());
     if (result === 'fail') {
@@ -29,7 +29,6 @@ export const calc = () => {
     }
   }
   console.log(`Congratulations, ${name}!`);
-  return;
 };
 
 calc();

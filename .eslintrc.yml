@@ -44,11 +44,14 @@ rules:
   semi: error
   object-curly-spacing: [2, "always"]
   quotes: [2, "single"]
-  indent: [2, 2]
+  indent: [2, 2, {"SwitchCase": 1}]
   keyword-spacing: "error"
   no-plusplus: "error"
   prefer-template: "error"
   no-eval: 2
   space-infix-ops: "error"
   operator-assignment: ["error", "always"]
+  semi-spacing: [2, { "before": false, "after": true }]
+  padded-blocks: ["error",  { "blocks": "never" }]
+  no-useless-return: "error"
   #import/prefer-default-export: "error"
