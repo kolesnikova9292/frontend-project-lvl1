@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 import {checkingYourQuestion, greeting, randomNumber} from "../src/steps.js";
 import {greetingText, introQuestion, whatShouldYouDoProgressionGame} from "../src/consts.js";
 
