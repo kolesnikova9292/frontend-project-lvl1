@@ -23,6 +23,7 @@ const checkingYourQuestion = (expression, name, realAnswer) => {
     return 'fail';
   }
   console.log('Correct!');
+  return true;
 };
 
 export {

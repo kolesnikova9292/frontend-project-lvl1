@@ -61,3 +61,4 @@ rules:
   no-use-before-define: "error"
   object-curly-newline: ["error",   { "ImportDeclaration": "never", "ExportDeclaration": "always" }]
   import/prefer-default-export: "error"
+  consistent-return: "error"

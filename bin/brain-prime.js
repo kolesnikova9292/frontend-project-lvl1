@@ -20,7 +20,6 @@ const prime = () => {
     }
   }
   console.log(`Congratulations, ${name}!`);
-  return;
 };
 
 prime();
