@@ -5,10 +5,10 @@ import { greetingText, introQuestion, whatShouldYouDoPrimeGame } from '../src/co
 export const prime = () => {
   const name = greeting(greetingText, introQuestion, whatShouldYouDoPrimeGame);
 
-  for (let step = 0; step < 3; step = step + 1) {
+  for (let step = 0; step < 3; step += 1) {
     const number = randomNumber();
     let rightAnswer = 'yes';
-    for (let num = 2; num < number; num = num + 1) {
+    for (let num = 2; num < number; num += 1) {
       if (number % num === 0) {
         rightAnswer = 'no';
         break;

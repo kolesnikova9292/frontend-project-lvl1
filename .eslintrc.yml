@@ -49,4 +49,6 @@ rules:
   no-plusplus: "error"
   prefer-template: "error"
   no-eval: 2
+  space-infix-ops: "error"
+  operator-assignment: ["error", "always"]
   #import/prefer-default-export: "error"
