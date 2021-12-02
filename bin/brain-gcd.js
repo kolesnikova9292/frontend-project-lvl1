@@ -9,7 +9,7 @@ const findGCD = (number1, number2) => {
   return findGCD(number2, number1 % number2);
 };
 
-export const gcd = () => {
+const gcd = () => {
   const name = greeting(greetingText, introQuestion, whatShouldYouDoGCDGame);
   for (let step = 0; step < 3; step += 1) {
     const number1 = Math.floor(Math.random() * 100);

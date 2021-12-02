@@ -2,7 +2,7 @@
 import { checkingYourQuestion, greeting, randomNumber } from '../src/steps.js';
 import { greetingText, introQuestion, whatShouldYouDoPrimeGame } from '../src/consts.js';
 
-export const prime = () => {
+const prime = () => {
   const name = greeting(greetingText, introQuestion, whatShouldYouDoPrimeGame);
 
   for (let step = 0; step < 3; step += 1) {

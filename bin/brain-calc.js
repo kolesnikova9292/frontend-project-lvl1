@@ -2,7 +2,7 @@
 import { checkingYourQuestion, chooseSign, greeting } from '../src/steps.js';
 import { greetingText, introQuestion, whatShouldYouDoCalcGame } from '../src/consts.js';
 
-export const calc = () => {
+const calc = () => {
   const name = greeting(greetingText, introQuestion, whatShouldYouDoCalcGame);
   for (let step = 0; step < 3; step += 1) {
     const number1 = Math.floor(Math.random() * 100);

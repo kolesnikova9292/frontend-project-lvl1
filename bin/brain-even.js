@@ -2,7 +2,7 @@
 import { checkingYourQuestion, greeting, randomNumber } from '../src/steps.js';
 import { greetingText, introQuestion, whatShouldYouDoEvenGame } from '../src/consts.js';
 
-export const even = () => {
+const even = () => {
   const name = greeting(greetingText, introQuestion, whatShouldYouDoEvenGame);
 
   for (let step = 0; step < 3; step += 1) {
