@@ -9,7 +9,7 @@ export const even = () => {
     console.log(greetingText);
     const name = readlineSync.question(introQuestion);
     console.log(`Hello, ${name}!`);
-    console.log(whatShouldYouDoEvenGame);
+    //console.log(whatShouldYouDoEvenGame);
 
     /*for(let step = 0; step < 3; step++) {
         const number = randomNumber();
