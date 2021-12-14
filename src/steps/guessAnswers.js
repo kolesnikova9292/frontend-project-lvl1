@@ -1,4 +1,4 @@
-import readlineSync from "readline-sync";
+import readlineSync from 'readline-sync';
 
 const guessAnswers = (expression, name, realAnswer) => {
   console.log(`Question: ${expression}`);
