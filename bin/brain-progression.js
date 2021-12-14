@@ -1,6 +1,7 @@
 #!/usr/bin/env node
-import { checkingYourQuestion, greeting, randomNumber } from '../src/steps.js';
 import { greetingText, introQuestion, whatShouldYouDoProgressionGame } from '../src/consts.js';
+import greeting from "../src/steps/greeting.js";
+import guessAnswers from "../src/steps/guessAnswers.js";
 
 const pregression = () => {
   const name = greeting(greetingText, introQuestion, whatShouldYouDoProgressionGame);
@@ -22,7 +23,7 @@ const pregression = () => {
 
     progression[skippedNumber] = '..';
 
-    const result = checkingYourQuestion(progression.join(' '), name, rightAnswer.toString());
+    const result = guessAnswers(progression.join(' '), name, rightAnswer.toString());
     if (result === 'fail') {
       return;
     }
