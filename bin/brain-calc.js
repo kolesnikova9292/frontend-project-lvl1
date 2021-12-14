@@ -1,8 +1,8 @@
 #!/usr/bin/env node
 import { greetingText, introQuestion, whatShouldYouDoCalcGame } from '../src/consts.js';
-import {chooseSign} from "../src/functions/functions.js";
-import greeting from "../src/steps/greeting.js";
-import guessAnswers from "../src/steps/guessAnswers.js";
+import { chooseSign } from '../src/functions/functions.js';
+import greeting from '../src/steps/greeting.js';
+import guessAnswers from '../src/steps/guessAnswers.js';
 
 const calc = () => {
   const name = greeting(greetingText, introQuestion, whatShouldYouDoCalcGame);
