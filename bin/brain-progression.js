@@ -2,7 +2,7 @@
 import { greetingText, introQuestion, whatShouldYouDoProgressionGame } from '../src/consts.js';
 import greeting from "../src/steps/greeting.js";
 import guessAnswers from "../src/steps/guessAnswers.js";
-import {randomNumber} from "../src/functions/functions";
+import {randomNumber} from "../src/functions/functions.js";
 
 const pregression = () => {
   const name = greeting(greetingText, introQuestion, whatShouldYouDoProgressionGame);
