@@ -6,7 +6,6 @@ import guessAnswers from '../src/steps/guessAnswers.js';
 
 const prime = () => {
   const name = greeting(greetingText, introQuestion, whatShouldYouDoPrimeGame);
-
   for (let step = 0; step < 3; step += 1) {
     const number = randomNumber();
     let rightAnswer = 'yes';
