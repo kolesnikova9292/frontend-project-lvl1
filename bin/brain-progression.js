@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 import progression from '../src/games/brain-progression-all.js';
 
-/*const pregression = () => {
+/* const pregression = () => {
   const name = greeting(greetingText, introQuestion, whatShouldYouDoProgressionGame);
 
   for (let step = 0; step < 3; step += 1) {
@@ -27,6 +27,6 @@ import progression from '../src/games/brain-progression-all.js';
     }
   }
   console.log(`Congratulations, ${name}!`);
-};*/
+}; */
 
 progression();
