@@ -7,5 +7,4 @@ const prime = () => {
   const name = greeting(greetingText, introQuestion, whatShouldYouDoCalcGame);
   startGame(brainPrimeLogics, name);
 };
-
 export default prime;
