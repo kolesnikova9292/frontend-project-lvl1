@@ -1,11 +1,7 @@
 #!/usr/bin/env node
-import { greetingText, introQuestion, whatShouldYouDoEvenGame } from '../src/consts.js';
-import { randomNumber } from '../src/functions/functions.js';
-import greeting from '../src/steps/greeting.js';
-import guessAnswers from '../src/steps/guessAnswers.js';
 import even from "../src/games/brain-even-all.js";
 
-/*const even = () => {
+/* const even = () => {
   const name = greeting(greetingText, introQuestion, whatShouldYouDoEvenGame);
 
   for (let step = 0; step < 3; step += 1) {
@@ -18,6 +14,6 @@ import even from "../src/games/brain-even-all.js";
   }
 
   console.log(`Congratulations, ${name}!`);
-};*/
+}; */
 
 even();
