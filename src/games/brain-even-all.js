@@ -1,7 +1,7 @@
-import greeting from '../steps/greeting';
-import { greetingText, introQuestion, whatShouldYouDoCalcGame } from '../consts';
-import startGame from '../steps/startGame';
-import brainEvenLogics from '../logics/brain-even-logics';
+import greeting from '../steps/greeting.js';
+import { greetingText, introQuestion, whatShouldYouDoCalcGame } from '../consts.js';
+import startGame from '../steps/startGame.js';
+import brainEvenLogics from '../logics/brain-even-logics.js';
 
 const even = () => {
   const name = greeting(greetingText, introQuestion, whatShouldYouDoCalcGame);

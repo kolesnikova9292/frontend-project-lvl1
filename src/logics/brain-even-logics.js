@@ -1,4 +1,4 @@
-import { randomNumber } from '../functions/functions';
+import { randomNumber } from '../functions/functions.js';
 
 const brainEvenLogics = () => {
   const number = randomNumber();
