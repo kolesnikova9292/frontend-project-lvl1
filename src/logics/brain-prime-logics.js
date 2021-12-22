@@ -1,4 +1,4 @@
-import {randomNumber} from "../functions/functions";
+import { randomNumber } from '../functions/functions';
 
 const brainPrimeLogics = () => {
 
@@ -10,8 +10,6 @@ const brainPrimeLogics = () => {
       break;
     }
   }
-
-
 
   return {
     expression: number, rightAnswer: rightAnswer

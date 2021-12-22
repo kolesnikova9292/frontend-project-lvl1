@@ -1,12 +1,12 @@
-import greeting from "../steps/greeting.js";
-import {greetingText, introQuestion, whatShouldYouDoCalcGame} from "../consts.js";
-import startGame from "../steps/startGame.js";
-import brainCalcLogics from "../logics/brain-calc-logics.js";
+import greeting from '../steps/greeting.js';
+import {greetingText, introQuestion, whatShouldYouDoCalcGame} from '../consts.js';
+import startGame from '../steps/startGame.js';
+import brainCalcLogics from '../logics/brain-calc-logics.js';
 
 const calc = () => {
   const name = greeting(greetingText, introQuestion, whatShouldYouDoCalcGame);
   startGame(brainCalcLogics, name);
-  /*for (let step = 0; step < 3; step += 1) {
+  /* for (let step = 0; step < 3; step += 1) {
     const number1 = Math.floor(Math.random() * 100);
     const number2 = Math.floor(Math.random() * 100);
     const sign = chooseSign(['+', '-', '*']);
@@ -31,8 +31,8 @@ const calc = () => {
     if (result === 'fail') {
       return;
     }
-  }*/
-  //console.log(`Congratulations, ${name}!`);
+  } */
+  // console.log(`Congratulations, ${name}!`);
 };
 
 export default calc;

@@ -1,11 +1,9 @@
-import {randomNumber} from "../functions/functions";
-import guessAnswers from "../steps/guessAnswers";
+import {randomNumber} from '../functions/functions';
 
 const brainEvenLogics = () => {
-
   const number = randomNumber();
   const realAnswer = number % 2 === 1 ? 'no' : 'yes';
-  //const result = guessAnswers(number, name, realAnswer);
+  // const result = guessAnswers(number, name, realAnswer);
 
   return {
     expression: number, rightAnswer: realAnswer.toString()

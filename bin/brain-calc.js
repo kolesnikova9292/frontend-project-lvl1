@@ -1,9 +1,9 @@
 #!/usr/bin/env node
-import calc from "../src/games/brain-calc-all.js";
+import calc from '../src/games/brain-calc-all.js';
 
 calc();
 
-/*const calc = () => {
+/* const calc = () => {
   const name = greeting(greetingText, introQuestion, whatShouldYouDoCalcGame);
   for (let step = 0; step < 3; step += 1) {
     const number1 = Math.floor(Math.random() * 100);
@@ -34,4 +34,4 @@ calc();
   console.log(`Congratulations, ${name}!`);
 };
 
-calc();*/
+calc(); */
