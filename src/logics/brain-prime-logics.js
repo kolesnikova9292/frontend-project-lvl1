@@ -9,7 +9,7 @@ const brainPrimeLogics = () => {
       rightAnswer = 'no';
       break;
     }
-  }
+  };
 
   return {
     expression: number, rightAnswer: rightAnswer,
