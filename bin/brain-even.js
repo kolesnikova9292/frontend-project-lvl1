@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-import even from "../src/games/brain-even-all.js";
+import even from '../src/games/brain-even-all.js';
 
 /* const even = () => {
   const name = greeting(greetingText, introQuestion, whatShouldYouDoEvenGame);
