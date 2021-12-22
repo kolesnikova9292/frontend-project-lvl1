@@ -9,8 +9,10 @@ const guessAnswers = (expression, name, realAnswer) => {
     console.log(`${answer} is wrong answer ;(. Correct answer was ${realAnswer}.`);
     console.log(`Let's try again, ${name}!`);
     return 'fail';
+  } else {
+    console.log('Correct!');
   }
-  console.log('Correct!');
+  console.log(`Congratulations, ${name}!`);
   return true;
 };
 
