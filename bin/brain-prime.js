@@ -1,10 +1,7 @@
 #!/usr/bin/env node
-import { greetingText, introQuestion, whatShouldYouDoPrimeGame } from '../src/consts.js';
-import { randomNumber } from '../src/functions/functions.js';
-import greeting from '../src/steps/greeting.js';
-import guessAnswers from '../src/steps/guessAnswers.js';
+import prime from '../src/games/brain-prime-all.js';
 
-const prime = () => {
+/* const prime = () => {
   const name = greeting(greetingText, introQuestion, whatShouldYouDoPrimeGame);
   for (let step = 0; step < 3; step += 1) {
     const number = randomNumber();
@@ -21,6 +18,6 @@ const prime = () => {
     }
   }
   console.log(`Congratulations, ${name}!`);
-};
+}; */
 
 prime();
