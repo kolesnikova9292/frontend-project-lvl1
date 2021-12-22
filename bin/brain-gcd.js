@@ -1,9 +1,7 @@
 #!/usr/bin/env node
-import { greetingText, introQuestion, whatShouldYouDoGCDGame } from '../src/consts.js';
-import greeting from '../src/steps/greeting.js';
-import guessAnswers from '../src/steps/guessAnswers.js';
+import gcd from '../src/games/brain-gcd-all.js';
 
-const findGCD = (number1, number2) => {
+/* const findGCD = (number1, number2) => {
   if (!number2) {
     return number1;
   }
@@ -22,6 +20,6 @@ const gcd = () => {
     }
   }
   console.log(`Congratulations, ${name}!`);
-};
+}; */
 
 gcd();
