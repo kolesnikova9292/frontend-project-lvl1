@@ -1,7 +1,6 @@
 import { randomNumber } from '../functions/functions';
 
 const brainProgressionLogics = () => {
-
   const zeroElement = randomNumber();
   const stepProgression = randomNumber();
   const amount = randomNumber(5, 10);
