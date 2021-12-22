@@ -1,4 +1,4 @@
-import { randomNumber } from '../functions/functions';
+import { randomNumber } from '../functions/functions.js';
 
 const brainProgressionLogics = () => {
   const zeroElement = randomNumber();

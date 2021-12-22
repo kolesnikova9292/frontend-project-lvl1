@@ -1,10 +1,7 @@
 #!/usr/bin/env node
-import { greetingText, introQuestion, whatShouldYouDoProgressionGame } from '../src/consts.js';
-import greeting from '../src/steps/greeting.js';
-import guessAnswers from '../src/steps/guessAnswers.js';
-import { randomNumber } from '../src/functions/functions.js';
+import progression from '../src/games/brain-progression-all.js';
 
-const pregression = () => {
+/*const pregression = () => {
   const name = greeting(greetingText, introQuestion, whatShouldYouDoProgressionGame);
 
   for (let step = 0; step < 3; step += 1) {
@@ -30,6 +27,6 @@ const pregression = () => {
     }
   }
   console.log(`Congratulations, ${name}!`);
-};
+};*/
 
-pregression();
+progression();
