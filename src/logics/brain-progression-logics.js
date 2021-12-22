@@ -1,4 +1,4 @@
-import {randomNumber} from '../functions/functions';
+import { randomNumber } from '../functions/functions';
 
 const brainProgressionLogics = () => {
 
@@ -19,8 +19,8 @@ const brainProgressionLogics = () => {
   progression[skippedNumber] = '..';
 
   return {
-    expression: progression, rightAnswer: rightAnswer.toString()
-  }
+    expression: progression, rightAnswer: rightAnswer.toString(),
+  };
 }
 
 export default brainProgressionLogics

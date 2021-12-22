@@ -1,4 +1,4 @@
-import {randomNumber} from '../functions/functions';
+import { randomNumber } from '../functions/functions';
 
 const brainEvenLogics = () => {
   const number = randomNumber();
@@ -6,8 +6,8 @@ const brainEvenLogics = () => {
   // const result = guessAnswers(number, name, realAnswer);
 
   return {
-    expression: number, rightAnswer: realAnswer.toString()
-  }
+    expression: number, rightAnswer: realAnswer.toString(),
+  };
 }
 
 export default brainEvenLogics

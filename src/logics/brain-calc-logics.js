@@ -1,4 +1,4 @@
-import {chooseSign} from '../functions/functions.js';
+import { chooseSign } from '../functions/functions.js';
 
 const brainCalcLogics = () => {
   const number1 = Math.floor(Math.random() * 100);
@@ -23,8 +23,8 @@ const brainCalcLogics = () => {
   }
 
   return {
-    expression: `${number1} ${sign} ${number2}`, rightAnswer: value.toString()
-  }
+    expression: `${number1} ${sign} ${number2}`, rightAnswer: value.toString(),
+  };
 }
 
 export default brainCalcLogics;
