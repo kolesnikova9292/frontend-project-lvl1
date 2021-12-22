@@ -17,8 +17,6 @@ const brainProgressionLogics = () => {
 
   progression[skippedNumber] = '..';
 
-  // console.log(progression.join(' '));
-
   return {
     expression: progression.join(' '), rightAnswer: rightAnswer.toString(),
   };

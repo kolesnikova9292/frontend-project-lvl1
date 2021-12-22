@@ -1,8 +1,8 @@
-import { chooseSign } from '../functions/functions.js';
+import { chooseSign, randomNumber } from '../functions/functions.js';
 
 const brainCalcLogics = () => {
-  const number1 = Math.floor(Math.random() * 100);
-  const number2 = Math.floor(Math.random() * 100);
+  const number1 = randomNumber();
+  const number2 = randomNumber();
   const sign = chooseSign(['+', '-', '*']);
   let value = 0;
   switch (sign) {

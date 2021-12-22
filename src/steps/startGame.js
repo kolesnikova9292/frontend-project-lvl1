@@ -6,7 +6,6 @@ const startGame = (logicOfGame, name, stepsCount = 3) => {
 
     const result = guessAnswers(expression, name, rightAnswer.toString());
 
-    // const result = guessAnswers(`${number1} ${sign} ${number2}`, name, value.toString());
     if (result === 'fail') {
       return;
     }
