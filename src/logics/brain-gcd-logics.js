@@ -16,6 +16,6 @@ const brainGCDLogics = () => {
   return {
     expression: `${number1} ${number2}`, rightAnswer: gcn.toString(),
   };
-}
+};
 
-export default brainGCDLogics
+export default brainGCDLogics;

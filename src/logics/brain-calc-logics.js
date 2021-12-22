@@ -20,11 +20,11 @@ const brainCalcLogics = () => {
     }
     default:
       break;
-  };
+  }
 
   return {
     expression: `${number1} ${sign} ${number2}`, rightAnswer: value.toString(),
   };
-}
+};
 
 export default brainCalcLogics;

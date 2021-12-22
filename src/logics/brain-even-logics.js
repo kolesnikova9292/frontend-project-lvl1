@@ -8,6 +8,6 @@ const brainEvenLogics = () => {
   return {
     expression: number, rightAnswer: realAnswer.toString(),
   };
-}
+};
 
-export default brainEvenLogics
+export default brainEvenLogics;

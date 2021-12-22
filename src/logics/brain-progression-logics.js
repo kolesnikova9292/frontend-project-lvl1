@@ -21,6 +21,6 @@ const brainProgressionLogics = () => {
   return {
     expression: progression, rightAnswer: rightAnswer.toString(),
   };
-}
+};
 
-export default brainProgressionLogics
+export default brainProgressionLogics;
