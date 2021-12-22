@@ -14,5 +14,4 @@ const brainPrimeLogics = () => {
     expression: number, rightAnswer,
   };
 };
-
 export default brainPrimeLogics;
