@@ -11,7 +11,6 @@ const guessAnswers = (expression, name, realAnswer) => {
     return 'fail';
   }
   console.log('Correct!');
-
   console.log(`Congratulations, ${name}!`);
   return true;
 };
