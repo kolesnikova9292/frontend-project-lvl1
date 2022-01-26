@@ -1,7 +1,7 @@
 import { greetingText, introQuestion, whatShouldYouDoCalcGame } from '../consts.js';
 //import brainCalcLogics from '../logics/brain-calc-logics.js';
 import { startGame } from '../steps/gameSteps.js';
-import { chooseSign, randomNumber } from '../functions/randomNumber.js';
+import { randomNumber } from '../functions/randomNumber.js';
 
 const calc = () => {
   //const name = greeting(greetingText, introQuestion, whatShouldYouDoCalcGame);
@@ -13,7 +13,7 @@ const calc = () => {
 const brainCalcLogics = () => {
   const number1 = randomNumber();
   const number2 = randomNumber();
-  const sign = chooseSign(['+', '-', '*']);
+  const sign = (['+', '-', '*']) => signs[Math.floor(Math.random() * signs.length)];
   let value = 0;
   switch (sign) {
     case '+': {
