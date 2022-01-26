@@ -1,6 +1,6 @@
 import { randomNumber } from '../functions/functions.js';
 
-const brainPrimeLogics = () => {
+/*const brainPrimeLogics = () => {
   const number = randomNumber();
   let rightAnswer = 'yes';
   for (let num = 2; num < number; num += 1) {
@@ -14,4 +14,4 @@ const brainPrimeLogics = () => {
     expression: number, rightAnswer,
   };
 };
-export default brainPrimeLogics;
+export default brainPrimeLogics;*/

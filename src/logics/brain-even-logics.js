@@ -1,6 +1,6 @@
 import { randomNumber } from '../functions/functions.js';
 
-const brainEvenLogics = () => {
+/*const brainEvenLogics = () => {
   const number = randomNumber();
   const realAnswer = number % 2 === 1 ? 'no' : 'yes';
 
@@ -9,4 +9,4 @@ const brainEvenLogics = () => {
   };
 };
 
-export default brainEvenLogics;
+export default brainEvenLogics;*/

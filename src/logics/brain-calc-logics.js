@@ -1,6 +1,6 @@
 import { chooseSign, randomNumber } from '../functions/functions.js';
 
-const brainCalcLogics = () => {
+/*const brainCalcLogics = () => {
   const number1 = randomNumber();
   const number2 = randomNumber();
   const sign = chooseSign(['+', '-', '*']);
@@ -25,6 +25,6 @@ const brainCalcLogics = () => {
   return {
     expression: `${number1} ${sign} ${number2}`, rightAnswer: value.toString(),
   };
-};
+};*/
 
-export default brainCalcLogics;
+//export default brainCalcLogics;

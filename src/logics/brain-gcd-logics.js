@@ -1,6 +1,6 @@
 import { randomNumber } from '../functions/functions.js';
 
-const findGCD = (number1, number2) => {
+/*const findGCD = (number1, number2) => {
   if (!number2) {
     return number1;
   }
@@ -17,4 +17,4 @@ const brainGCDLogics = () => {
   };
 };
 
-export default brainGCDLogics;
+export default brainGCDLogics;*/
