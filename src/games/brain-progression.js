@@ -2,10 +2,6 @@ import { greetingText, introQuestion, whatShouldYouDoCalcGame } from './consts.j
 import { startGame } from '../steps/gameSteps.js';
 import randomNumber from '../functions/randomNumber.js';
 
-const progression = () => {
-  startGame(greetingText, introQuestion, brainProgressionLogics, whatShouldYouDoCalcGame);
-};
-
 const brainProgressionLogics = () => {
   const zeroElement = randomNumber();
   const stepProgression = randomNumber();
@@ -26,6 +22,10 @@ const brainProgressionLogics = () => {
   return {
     expression: progression.join(' '), rightAnswer: rightAnswer.toString(),
   };
+};
+
+const progression = () => {
+  startGame(greetingText, introQuestion, brainProgressionLogics, whatShouldYouDoCalcGame);
 };
 
 export default progression;

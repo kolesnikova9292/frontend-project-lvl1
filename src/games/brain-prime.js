@@ -2,10 +2,6 @@ import { greetingText, introQuestion, whatShouldYouDoCalcGame } from './consts.j
 import { startGame } from '../steps/gameSteps.js';
 import randomNumber from '../functions/randomNumber.js';
 
-const prime = () => {
-  startGame(greetingText, introQuestion, brainPrimeLogics, whatShouldYouDoCalcGame);
-};
-
 const brainPrimeLogics = () => {
   const number = randomNumber();
   let rightAnswer = 'yes';
@@ -20,4 +16,9 @@ const brainPrimeLogics = () => {
     expression: number, rightAnswer,
   };
 };
+
+const prime = () => {
+  startGame(greetingText, introQuestion, brainPrimeLogics, whatShouldYouDoCalcGame);
+};
+
 export default prime;

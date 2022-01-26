@@ -2,10 +2,6 @@ import { greetingText, introQuestion, whatShouldYouDoCalcGame } from './consts.j
 import { startGame } from '../steps/gameSteps.js';
 import randomNumber from '../functions/randomNumber.js';
 
-const calc = () => {
-  startGame(greetingText, introQuestion, brainCalcLogics, whatShouldYouDoCalcGame);
-};
-
 const brainCalcLogics = () => {
   const number1 = randomNumber();
   const number2 = randomNumber();
@@ -32,6 +28,10 @@ const brainCalcLogics = () => {
   return {
     expression: `${number1} ${sign} ${number2}`, rightAnswer: value.toString(),
   };
+};
+
+const calc = () => {
+  startGame(greetingText, introQuestion, brainCalcLogics, whatShouldYouDoCalcGame);
 };
 
 export default calc;
