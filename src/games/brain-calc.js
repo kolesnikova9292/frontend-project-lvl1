@@ -13,7 +13,8 @@ const calc = () => {
 const brainCalcLogics = () => {
   const number1 = randomNumber();
   const number2 = randomNumber();
-  const sign = (['+', '-', '*']) => signs[Math.floor(Math.random() * signs.length)];
+  const signs = ['+', '-', '*'];
+  const sign = signs[Math.floor(Math.random() * signs.length)];
   let value = 0;
   switch (sign) {
     case '+': {
