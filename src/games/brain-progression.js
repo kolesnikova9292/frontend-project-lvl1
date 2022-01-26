@@ -1,6 +1,6 @@
 import { greetingText, introQuestion, whatShouldYouDoCalcGame } from './consts.js';
 import { startGame } from '../steps/gameSteps.js';
-import { randomNumber } from '../functions/randomNumber.js';
+import randomNumber from '../functions/randomNumber.js';
 
 const progression = () => {
   startGame(greetingText, introQuestion, brainProgressionLogics, whatShouldYouDoCalcGame);

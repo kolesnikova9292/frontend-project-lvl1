@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d90e425c-2506-47f6-8f22-bbf5e757b990" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/games/consts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/consts.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/functions/randomNumber.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/functions/randomNumber.js" afterDir="false" />
-    </list>
+    <list default="true" id="d90e425c-2506-47f6-8f22-bbf5e757b990" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -66,7 +61,7 @@
       <workItem from="1640244159234" duration="1176000" />
       <workItem from="1643215095878" duration="134000" />
       <workItem from="1643215243886" duration="35000" />
-      <workItem from="1643215292279" duration="3625000" />
+      <workItem from="1643215292279" duration="3973000" />
     </task>
     <servers />
   </component>
