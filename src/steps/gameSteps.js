@@ -1,6 +1,6 @@
 import readlineSync from 'readline-sync';
 
-const startGame = (greetingText, introQuestion, logicOfGame = null,  whatShouldYouDo = '', stepsCount = 3,) => {
+const startGame = (greetingText, introQuestion, logicOfGame = null, whatShouldYouDo = '', stepsCount = 3) => {
   console.log(greetingText);
   const name = readlineSync.question(introQuestion);
   console.log(`Hello, ${name}!`);
@@ -19,14 +19,6 @@ const startGame = (greetingText, introQuestion, logicOfGame = null,  whatShouldY
   }
 }
 
-/*const greeting = (greetingText, introQuestion, whatShouldYouDo = '') => {
-  console.log(greetingText);
-  const name = readlineSync.question(introQuestion);
-  console.log(`Hello, ${name}!`);
-  if (whatShouldYouDo) console.log(whatShouldYouDo);
-  return name;
-};*/
-
 const guessAnswers = (expression, name, realAnswer) => {
   console.log(`Question: ${expression}`);
 
@@ -42,17 +34,5 @@ const guessAnswers = (expression, name, realAnswer) => {
   console.log(`Congratulations, ${name}!`);
   return true;
 };
-
-/*const startGame = (logicOfGame, name, stepsCount = 3) => {
-  for (let step = 0; step < stepsCount; step += 1) {
-    const { expression, rightAnswer } = logicOfGame();
-
-    const result = guessAnswers(expression, name, rightAnswer.toString());
-
-    if (result === 'fail') {
-      return;
-    }
-  }
-};*/
 
 export { guessAnswers, startGame };
