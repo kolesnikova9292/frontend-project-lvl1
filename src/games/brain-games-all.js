@@ -1,8 +1,10 @@
 import { greetingText, introQuestion } from '../consts.js';
-import { greeting } from '../steps/gameSteps.js';
+import { startGame } from '../steps/gameSteps.js';
 
 const brainGames = () => {
-  greeting(greetingText, introQuestion);
+  //greeting(greetingText, introQuestion);
+
+  startGame(greetingText, introQuestion);
 };
 
 export default brainGames;
