@@ -33,6 +33,6 @@ const startGame = (greetingText, introQuestion, logicOfGame = null, whatShouldYo
       }
     }
   }
-}
+};
 
 export { guessAnswers, startGame };
