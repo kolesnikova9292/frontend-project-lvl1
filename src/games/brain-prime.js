@@ -1,16 +1,10 @@
 import { greetingText, introQuestion, whatShouldYouDoCalcGame } from './consts.js';
-//import brainPrimeLogics from '../logics/brain-prime-logics.js';
 import { startGame } from '../steps/gameSteps.js';
 import { randomNumber } from '../functions/randomNumber.js';
 
 const prime = () => {
-  //const name = greeting(greetingText, introQuestion, whatShouldYouDoCalcGame);
-  //startGame(brainPrimeLogics, name);
-
   startGame(greetingText, introQuestion, brainPrimeLogics, whatShouldYouDoCalcGame);
 };
-
-
 
 const brainPrimeLogics = () => {
   const number = randomNumber();
