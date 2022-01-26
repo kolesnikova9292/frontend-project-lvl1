@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d90e425c-2506-47f6-8f22-bbf5e757b990" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/games/brain-calc-all.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/games/brain-calc-all.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/games/brain-even-all.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/games/brain-even-all.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/games/brain-gcd-all.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/games/brain-gcd-all.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/games/brain-prime-all.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/games/brain-prime-all.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/games/brain-progression-all.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/games/brain-progression-all.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/steps/gameSteps.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/steps/gameSteps.js" afterDir="false" />
-    </list>
+    <list default="true" id="d90e425c-2506-47f6-8f22-bbf5e757b990" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -68,7 +61,7 @@
       <workItem from="1640244159234" duration="1176000" />
       <workItem from="1643215095878" duration="134000" />
       <workItem from="1643215243886" duration="35000" />
-      <workItem from="1643215292279" duration="1110000" />
+      <workItem from="1643215292279" duration="1493000" />
     </task>
     <servers />
   </component>

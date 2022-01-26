@@ -10,7 +10,7 @@ const startGame = (greetingText, introQuestion, logicOfGame = null,  whatShouldY
     for (let step = 0; step < stepsCount; step += 1) {
       const { expression, rightAnswer } = logicOfGame();
 
-      const result = guessAnswers(expression, name, rightAnswer.toString());
+      const result = guessAnswers(expression, name, rightAnswer);
 
       if (result === 'fail') {
         return;
