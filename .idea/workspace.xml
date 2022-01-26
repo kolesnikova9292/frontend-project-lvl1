@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d90e425c-2506-47f6-8f22-bbf5e757b990" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/bin/brain-games.js" beforeDir="false" afterPath="$PROJECT_DIR$/bin/brain-games.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/brain-gcd.js" beforeDir="false" afterPath="$PROJECT_DIR$/bin/brain-gcd.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/brain-prime.js" beforeDir="false" afterPath="$PROJECT_DIR$/bin/brain-prime.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/brain-progression.js" beforeDir="false" afterPath="$PROJECT_DIR$/bin/brain-progression.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/games/brain-games-all.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/games/brain-games.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/games/brain-gcd-all.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/games/brain-gcd.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/games/brain-prime-all.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/games/brain-prime.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/games/brain-progression-all.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/games/brain-progression.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/games/consts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/consts.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/functions/randomNumber.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/functions/randomNumber.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +66,7 @@
       <workItem from="1640244159234" duration="1176000" />
       <workItem from="1643215095878" duration="134000" />
       <workItem from="1643215243886" duration="35000" />
-      <workItem from="1643215292279" duration="3151000" />
+      <workItem from="1643215292279" duration="3625000" />
     </task>
     <servers />
   </component>

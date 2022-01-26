@@ -1,4 +1,4 @@
-import { greetingText, introQuestion, whatShouldYouDoCalcGame } from '../consts.js';
+import { greetingText, introQuestion, whatShouldYouDoCalcGame } from './consts.js';
 //import brainProgressionLogics from '../logics/brain-progression-logics.js';
 import { startGame } from '../steps/gameSteps.js';
 import { randomNumber } from '../functions/randomNumber.js';
