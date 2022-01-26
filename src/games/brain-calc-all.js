@@ -37,5 +37,4 @@ const brainCalcLogics = () => {
   };
 };
 
-
 export default calc;
