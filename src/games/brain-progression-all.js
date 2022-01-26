@@ -1,7 +1,7 @@
 import { greetingText, introQuestion, whatShouldYouDoCalcGame } from '../consts.js';
 //import brainProgressionLogics from '../logics/brain-progression-logics.js';
 import { startGame } from '../steps/gameSteps.js';
-import { randomNumber } from '../functions/functions.js';
+import { randomNumber } from '../functions/randomNumber.js';
 
 const progression = () => {
   //const name = greeting(greetingText, introQuestion, whatShouldYouDoCalcGame);

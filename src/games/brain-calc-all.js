@@ -1,7 +1,7 @@
 import { greetingText, introQuestion, whatShouldYouDoCalcGame } from '../consts.js';
 //import brainCalcLogics from '../logics/brain-calc-logics.js';
 import { startGame } from '../steps/gameSteps.js';
-import { chooseSign, randomNumber } from '../functions/functions.js';
+import { chooseSign, randomNumber } from '../functions/randomNumber.js';
 
 const calc = () => {
   //const name = greeting(greetingText, introQuestion, whatShouldYouDoCalcGame);
