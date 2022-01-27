@@ -1,6 +1,6 @@
 # My Math Game
 
-This game thain your simpliest math skills.
+This game train your simpliest math skills.
 
 ### Run
 
